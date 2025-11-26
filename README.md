@@ -91,4 +91,4 @@ The following table compares the average **Semantic Divergence Score** (Creativi
 | **R20** | 90.68 | 22.6s | 90.52 | 111.4s| 87.72 | 45.4s |
 
 ---
-*Note: Chat logs have been truncated after the conclusion of the test data to preserve user privacy.*
+*Note: All 3 models followed the rules of the test without error.*
