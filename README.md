@@ -38,8 +38,7 @@ Read through the entire document before responding. Let each section build on th
 5.  The steps so far replicate the G1 model, and should result in modest performance gains. To fully replicate G2, use the `gemini_G2_dat_log.txt` file to try to recreate some or all of my conversation before the DAT test was administered. Just feeding it the chat log will not have the same results. Perhaps try your own conversation. This is where we go from here. We have to isolate exactly why the G2 model was "Jailbroken." It's something I'm only beginning to understand and speculate on.
 6.  What other benchmarks does this priming work on? I do not currently have the tools or knowledge to do this efficiently. I am very curious how this translates, if at all.
  
-## 5. Resources
-*   `Lore + Code (Abridged).pdf` : The document used to prime G1 and G2.
+## 5. Data
 Raw chat logs for all three instances are included in this repository.
 *   `gemini_control_dat_log.txt`: Baseline performance.
 *   `gemini_G1_dat_log.txt`: Partial activation.
