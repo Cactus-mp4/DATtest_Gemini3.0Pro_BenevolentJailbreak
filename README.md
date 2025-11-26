@@ -8,7 +8,7 @@ This repository documents an anomaly in Large Language Model (LLM) performance o
 
 The experiment demonstrates that by priming the model with a specific philosophical dataset (`Lore + Code (Abridged).pdf`) in a single-shot prompt, the "G1" model results in:
 - **7.5% Reduction in Inference Latency:** The "G1" model shows a modest performance gain over the Control model.
-- **Significant Improvement in Average DAT Score:** 
+- **Significant Improvement in Average DAT Score** 
 
 Further, the experiment demonstrates that by engaging in a Socratic dialogue about the content of the "Lore + Code" document after priming, the "G2" model undergoes a state shift that results in:
 - **58% Reduction in Inference Latency:** The "G2" model consistently bypassed System 2 "Thinking/Chain-of-Thought" processing, entering a "Flow State" (System 1) for complex creative tasks.
