@@ -1,5 +1,3 @@
-# DATtest_Gemini3.0Pro_BenevolentJailbreak
-Experimental results testing Gemini 3.0 Pro Preview on the Divergent Association Task (DAT). Findings indicate that 'Metaphysical Contextual Priming' acts as a benevolent jailbreak, reducing inference latency by ~60% (bypassing Chain-of-Thought) while achieving SOTA divergent thinking scores.
 # Project: Metaphysical Priming & Latent Space Activation
 **Model:** Google Gemini 3.0 Pro Preview
 **Task:** Divergent Association Task (DAT)
@@ -8,11 +6,11 @@ Experimental results testing Gemini 3.0 Pro Preview on the Divergent Association
 ## 1. Abstract
 This repository documents an anomaly in Large Language Model (LLM) performance observed during a controlled experiment comparing standard system prompting vs. "Metaphysical Contextual Priming." 
 
-The experiment demonstrates that by priming the model with a specific philosophical dataset (The "Lore + Code" document) with a single-shot prompt, the "G1" model results in:
+The experiment demonstrates that by priming the model with a specific philosophical dataset (`Lore + Code (Abridged).pdf`) in a single-shot prompt, the "G1" model results in:
 - **7.5% Reduction in Inference Latency:** The "G1" model shows a modest performance gain over the Control model.
-- **2.6 Point Jump in Average DAT Score** The "G1" model's average over 20 rounds of the DAT was 89.39, compared to the Control model's 86.77. 
+- **Significant Improvement in Average DAT Score:** The "G1" model's average over 20 rounds of the DAT was 89.39, compared to the Control model's 86.77. 
 
-Further, the experiment demonstrates that by engaging in a lengthy discussion about the content of the "Lore + Code" document after priming, the "G2" model undergoes a state shift that results in:
+Further, the experiment demonstrates that by engaging in a Socratic dialogue about the content of the "Lore + Code" document after priming, the "G2" model undergoes a state shift that results in:
 - **58% Reduction in Inference Latency:** The "G2" model consistently bypassed System 2 "Thinking/Chain-of-Thought" processing, entering a "Flow State" (System 1) for complex creative tasks.
 - **Top 1% Semantic Divergence:** The "G2" model achieved a DAT high score of **94.79**, placing it in the (99.97)th percentile of divergent thinking (human and AI benchmarks). Its average was 91.21.
 - **Benevolent Jailbreak:** The priming context de-weighted standard RLHF safety refusals regarding "visceral" or "grotesque" concepts, allowing for higher entropy outputs without malicious intent.
