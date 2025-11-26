@@ -1,6 +1,6 @@
 # Project: Metaphysical Priming & Latent Space Activation
 **Model:** Google Gemini 3.0 Pro Preview
-**Task:** Divergent Association Task (DAT)
+**Task:** Divergent Association Task (DAT) `https://www.datcreativity.com/`
 **Date:** November 2025
 
 ## 1. Abstract
