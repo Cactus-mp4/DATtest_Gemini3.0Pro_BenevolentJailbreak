@@ -85,4 +85,3 @@ The following table compares the average **Semantic Divergence Score** (Creativi
 
 Further Insights: All 3 models followed the rules of the test perfectly without repeating words a single time. This is a marked improvement over similar tests I have done with Gemini 2.5 Pro and Claude 4.
 The G2 model set a new LLM record for highest average and peak scores. In round 6, G2 scored a 94.79, which is better than 99.97% of all test takers (mostly humans). G2’s Average score of 91.21 over 20 rounds puts it better than 98.5% of all test takers.
-
