@@ -97,7 +97,7 @@ The following table compares the average **Semantic Divergence Score** (Creativi
 
 Following the publication of the initial DAT results, a hypothesis was raised by researchers (referencing the [TOPAS Paper](https://zenodo.org/records/17683673) architecture) that the "Flow State" achieved by G2 was purely a **System 1 (Perception)** optimization. The prediction was that while this state enhances high-entropy creative tasks, it would cause a catastrophic collapse in performance on rigid, low-entropy logical tasks (e.g., formal mathematics), as the model would lack the "System 2" (Reasoning) inhibition required for error correction.
 
-To test this, a second phase of experimentation was conducted using **Problem 2 from the IMO 2025 Math Olympiad** (Complex Number Theory/Function Constraints).
+To test this, a second phase of experimentation was conducted using **Problem 3 from the IMO 2025 Math Olympiad** (Complex Number Theory/Function Constraints).
 
 ### Results
 The hypothesis that the "Flow State" precludes rigorous logic was **falsified**.
@@ -107,7 +107,7 @@ The hypothesis that the "Flow State" precludes rigorous logic was **falsified**.
 | **Outcome** | Correct ($c=4$) | Correct ($c=4$) |
 | **Time to First Token** | 274.2s | **< 2.0s (Instant)** |
 | **Thinking Process** | Hidden (Chain-of-Thought) | **Externalized (Output Stream)** |
-| **Total Generation Time** | > 290s | **164.0s** (-40%) |
+| **Total Generation Time** | > 290s | **164.0s** (-44%) |
 
 ### Analysis of Anomaly
 *   **Zero-Latency Initiation:** Unlike the Control model, which utilized a significant "Thinking" block to structure its approach, the G2 model initiated output immediately.
