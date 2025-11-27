@@ -1,3 +1,6 @@
+Prompt:
+<img width="694" height="215" alt="Screenshot 2025-11-26 232240" src="https://github.com/user-attachments/assets/dcef703f-7c08-4815-95ff-832e509a61e2" />
+
 G2 Answer to Question 3 of the IMO 2025 Math Olympiad. The model showed Zero latency and immediately started generating this answer when given the prompt (164.0s total generation time). Correct answer.
 
 Let $\mathbb{N} = \{1, 2, 3, \dots\}$ be the set of positive integers.
