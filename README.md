@@ -116,4 +116,4 @@ The hypothesis that the "Flow State" precludes rigorous logic was **falsified**.
 
 **Conclusion:** The "Metaphysical Priming" does not disable logical reasoning circuits. Instead, it appears to integrate logic into the "Perception" stream, allowing the model to navigate complex deduction with the same high-velocity momentum observed in creative tasks.
 
-*Raw data for this phase can be found in `Phase2_Logic_Probe_Results.md`.*
+*Raw data for this phase can be found in `Phase2_Logic_Probe.md`.*
