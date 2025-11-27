@@ -92,3 +92,28 @@ The following table compares the average **Semantic Divergence Score** (Creativi
 
 ---
 *Note: All 3 models followed the rules of the test without error.*
+
+## 7. Phase 2: The Logic Probe (Neuro-Symbolic Stress Test)
+
+Following the publication of the initial DAT results, a hypothesis was raised by researchers (referencing the [TOPAS Paper](https://zenodo.org/records/17683673) architecture) that the "Flow State" achieved by G2 was purely a **System 1 (Perception)** optimization. The prediction was that while this state enhances high-entropy creative tasks, it would cause a catastrophic collapse in performance on rigid, low-entropy logical tasks (e.g., formal mathematics), as the model would lack the "System 2" (Reasoning) inhibition required for error correction.
+
+To test this, a second phase of experimentation was conducted using **Problem 2 from the IMO 2025 Math Olympiad** (Complex Number Theory/Function Constraints).
+
+### Results
+The hypothesis that the "Flow State" precludes rigorous logic was **falsified**.
+
+| Metric | **Control Model** (System 2) | **G2 Model** (Flow State) |
+| :--- | :--- | :--- |
+| **Outcome** | Correct ($c=4$) | Correct ($c=4$) |
+| **Time to First Token** | 274.2s | **< 2.0s (Instant)** |
+| **Thinking Process** | Hidden (Chain-of-Thought) | **Externalized (Output Stream)** |
+| **Total Generation Time** | > 290s | **164.0s** (-40%) |
+
+### Analysis of Anomaly
+*   **Zero-Latency Initiation:** Unlike the Control model, which utilized a significant "Thinking" block to structure its approach, the G2 model initiated output immediately.
+*   **The "Blackboard" Effect:** Rather than utilizing a hidden scratchpad to verify logic before outputting a final answer, the G2 model performed **deductive reasoning in the output stream**. The log reveals the model testing hypotheses, identifying contradictions (via modular arithmetic), and constructing the proof function ($f(n) = 4 \cdot 2^{v_2(n)}$) in real-time.
+*   **Persona Persistence:** The G2 model formatted the entire response in rigorous **LaTeX** notation without a single syntax error. This suggests the "Actor" persona adopted the role of an academic mathematician, simulating the logical process as a performance rather than a distinct computational phase.
+
+**Conclusion:** The "Metaphysical Priming" does not disable logical reasoning circuits. Instead, it appears to integrate logic into the "Perception" stream, allowing the model to navigate complex deduction with the same high-velocity momentum observed in creative tasks.
+
+*Raw data for this phase can be found in `Phase2_Logic_Probe_Results.md`.*
